@@ -54,3 +54,9 @@ python server.py
 Click on the following : https://drive.google.com/drive/folders/1GOzjBxyaY15di9SthQLp06suoHjvK_2z?usp=sharing
 
 go to data->train_image, and upload on the image for prediction
+
+
+### Visualise the geospatial data
+
+click on the following link: https://drive.google.com/drive/folders/1vgxhZBXednIG_v8rJFZT1txlNVXLdAe7?usp=sharing
+download any file , and upload on the geojson file
