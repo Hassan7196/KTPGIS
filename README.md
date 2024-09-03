@@ -55,9 +55,17 @@ Click on the following : https://drive.google.com/drive/folders/1GOzjBxyaY15di9S
 
 go to data->train_image, and upload on the image for prediction
 ### output
+The colours represents the following:
+Cyan - Urban Areas
+Blue - Water
+Green - Forest
+Yellow - Agriculture
+Magneta - Road
 ![1](https://github.com/user-attachments/assets/a0c007f7-4f02-4a89-b9a4-d7d025786226)
 
 ### Visualise the geospatial data
 
 click on the following link: https://drive.google.com/drive/folders/1vgxhZBXednIG_v8rJFZT1txlNVXLdAe7?usp=sharing
 download any file , and upload on the geojson file
+### Output
+![1](https://github.com/user-attachments/assets/1401af95-7751-41e3-9f98-b6badcb0bdb2)
