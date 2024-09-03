@@ -20,7 +20,7 @@ Ensure you have Python 3.x installed on your system. You can download it from [p
 
 ### Clone the Repository
 
-Clone the repository to your local machine:
+Clone the repository to your local machine in pycharm:
 
 ```bash
 git clone https://github.com/yourusername/your-repository.git
@@ -33,3 +33,13 @@ Install the required Python packages using pip:
 ```
 pip install -r requirements.txt
 ```
+
+Once everything is download and completed. 
+Go to Server.py and 148 line: click on green arrow:
+![1](https://github.com/user-attachments/assets/26fd9922-d4e1-4ead-b124-7754dec4932b)
+
+or u can just go to the terminal write the following
+```
+python server.py
+```
+
