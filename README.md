@@ -55,7 +55,7 @@ Click on the following : https://drive.google.com/drive/folders/1GOzjBxyaY15di9S
 
 go to data->train_image, and upload on the image for prediction
 ### output
-
+![1](https://github.com/user-attachments/assets/a0c007f7-4f02-4a89-b9a4-d7d025786226)
 
 ### Visualise the geospatial data
 
