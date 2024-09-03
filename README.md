@@ -26,9 +26,6 @@ Clone the repository to your local machine:
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
 
-**### Install Dependencies**
+**Install Dependencies**
 
-Install the required Python packages using pip:
-
-Install Dependencies
 Install the required Python packages using pip:
