@@ -49,11 +49,12 @@ python server.py
 ```
 ![1](https://github.com/user-attachments/assets/1df65ae7-8710-4ff1-9b37-ca664bc977c0)
 
-### Prediction Dataset
+## Prediction Dataset
 
 Click on the following : https://drive.google.com/drive/folders/1GOzjBxyaY15di9SthQLp06suoHjvK_2z?usp=sharing
 
 go to data->train_image, and upload on the image for prediction
+### output
 
 
 ### Visualise the geospatial data
