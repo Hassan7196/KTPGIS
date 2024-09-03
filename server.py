@@ -46,22 +46,20 @@ def predict():
         print(f"Prediction shape: {prediction.shape}")
         print(f"Unique values in predicted mask: {np.unique(predicted_mask)}")
 
-        # Display original image and predicted mask side by side
+
         import matplotlib.pyplot as plt
 
-        # Load the original image using PIL
         original_image = Image.open(file_path)
 
-        # Display the images using matplotlib
+
         plt.figure(figsize=(12, 6))
 
-        # Display the original image
         plt.subplot(1, 2, 1)
         plt.imshow(original_image)
         plt.title('Original Image')
         plt.axis('off')
 
-        # Display the predicted mask
+
         plt.subplot(1, 2, 2)
         plt.imshow(predicted_mask, cmap='viridis')
         plt.colorbar()
@@ -142,66 +140,3 @@ def uploaded_file(filename):
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-
-
-
-
-# from flask import Flask, request, redirect, url_for, render_template
-# import os
-# import geopandas as gpd
-#
-# # from werkzeug.utils import secure_filename
-#
-# app = Flask(__name__)
-#
-# UPLOAD_FOLDER = 'uploads/'
-# ALLOWED_EXTENSIONS = {'kml', 'kmz', 'geojson', 'zip'}
-#
-# app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-#
-#
-# def allowed_file(filename):
-#     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-#
-#
-# @app.route('/')
-# def index():
-#     return render_template('index.html')
-#
-#
-# @app.route('/upload', methods=['POST'])
-# def upload_file():
-#     geojson_filename =""
-#     file = request.files['file']
-#     if file.filename == '':
-#         return 'No selected file'
-#     if file and allowed_file(file.filename):
-#
-#         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-#         file.save(file_path)
-#
-#         geojson_filename = convert_to_geojson(file_path, file.filename)
-#     if geojson_filename:
-#         # geojson_file = request.args.get('geojson_file')
-#         return render_template('map.html', geojson_file=request.args.get(geojson_filename))
-#
-#
-# def convert_to_geojson(file_path, filename):
-#     if filename.endswith('.kml') or filename.endswith('.kmz'):
-#         gdf = gpd.read_file(file_path)
-#     elif filename.endswith('.geojson'):
-#         return filename
-#     elif filename.endswith('.zip'):
-#         gdf = gpd.read_file("zip://" + file_path)
-#     else:
-#         return None
-#
-#     geojson_filename = os.path.splitext(filename)[0] + '.geojson'
-#     geojson_path = os.path.join(app.config['UPLOAD_FOLDER'], geojson_filename)
-#     gdf.to_file(geojson_path, driver='GeoJSON')
-#     return geojson_filename
-#
-#
-# if __name__ == "__main__":
-#     app.run(debug=True)
