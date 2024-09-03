@@ -38,16 +38,16 @@ def predict():
         file.save(file_path)
 
         preprocessed_image = preprocess_image(file_path)
-        preprocessed_image = np.expand_dims(preprocessed_image, axis=0)  # Add batch dimension
+        preprocessed_image = np.expand_dims(preprocessed_image, axis=0)
 
         prediction = model.predict(preprocessed_image)
-        predicted_mask = np.argmax(prediction[0], axis=-1)  # Convert one-hot to class indices
+        predicted_mask = np.argmax(prediction[0], axis=-1)
 
         print(f"Prediction shape: {prediction.shape}")
         print(f"Unique values in predicted mask: {np.unique(predicted_mask)}")
 
 
-        import matplotlib.pyplot as plt
+
 
         original_image = Image.open(file_path)
 
