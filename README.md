@@ -39,6 +39,14 @@ Once everything is download and completed.
 Go to Server.py and 148 line: click on green arrow:
 ![1](https://github.com/user-attachments/assets/26fd9922-d4e1-4ead-b124-7754dec4932b)
 
+
+### Prediction Dataset
+
+Click on the following : https://drive.google.com/drive/folders/1GOzjBxyaY15di9SthQLp06suoHjvK_2z?usp=sharing
+
+go to data->train_image, and upload on the image for prediction
+
+
 or u can just go to the terminal write the following
 ```
 python server.py
