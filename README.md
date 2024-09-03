@@ -27,6 +27,7 @@ git clone https://github.com/yourusername/your-repository.git
 cd your-repository
 ```
 
+upon completion you will view the following
 ### Install Dependencies
 
 Install the required Python packages using pip:
@@ -42,4 +43,5 @@ or u can just go to the terminal write the following
 ```
 python server.py
 ```
+![1](https://github.com/user-attachments/assets/1df65ae7-8710-4ff1-9b37-ca664bc977c0)
 
