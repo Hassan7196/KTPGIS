@@ -56,7 +56,7 @@ Click on the following : https://drive.google.com/drive/folders/1GOzjBxyaY15di9S
 go to data->train_image, and upload on the image for prediction
 ### output
 The colours represents the following:
-Cyan - Urban Areas
+- Cyan - Urban Areas
 Blue - Water
 Green - Forest
 Yellow - Agriculture
