@@ -57,10 +57,10 @@ go to data->train_image, and upload on the image for prediction
 ### output
 The colours represents the following:
 - Cyan - Urban Areas
-Blue - Water
-Green - Forest
-Yellow - Agriculture
-Magneta - Road
+- Blue - Water
+- Green - Forest
+- Yellow - Agriculture
+- Magneta - Road
 ![1](https://github.com/user-attachments/assets/a0c007f7-4f02-4a89-b9a4-d7d025786226)
 
 ### Visualise the geospatial data
