@@ -14,7 +14,7 @@ he application allows users to upload images and geospatial data files, processe
 
 To set up and run the project locally, follow these steps:
 
-### Prerequisites
+### Prerequisite
 
 Ensure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
